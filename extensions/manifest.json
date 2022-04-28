@@ -1,0 +1,19 @@
+{"manifest_version": 2,
+"name": "Snake Game",
+"version": "1.0",
+"description": "Just a nace game",
+"icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+},
+"chrome_url_overrides":{
+    "newtab": "index.html"
+},
+"browser_action":{
+   "default_popup": "popup.html",
+   "defoult_icon": "icon16.png"
+}
+
+
+}

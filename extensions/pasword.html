@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paswordcontect</title>
+</head>
+<body bgcolor="black"><font color="purple">
+    <p>please ad the continou pasword that geven to you</p>
+</font>
+<button onclick="myFunction()">pres the button do write your pasword</button>
+<script>
+   function myFunction() {
+  let text;
+  let favDrink = prompt("What's your favorite drink?", "you have to know this pasword");
+  switch(favDrink) {
+    case "238495hfjdke67GGboys":
+      text = "Corect pasword pres alt+Shif+8";
+      break;
+    case "12333211123321pamestoxorio":
+      text = "Corect pasword pres Alt+Shift+9";
+    default:
+      text = "Wrong..";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+
+
+</script>
+<style>
+    button.a {
+  visibility: visible;
+}
+
+button.b {
+  visibility: hidden;
+}
+</style><button onclick="window.location='startingpage.html'" class="b">1</button>
+</body>
+</html>
